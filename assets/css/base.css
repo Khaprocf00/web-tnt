@@ -1,0 +1,62 @@
+:root {
+    --html-white-color: #fff;
+    --html-black-color: #fff;
+}
+
+* {
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.width {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+#bg ul {
+    margin-bottom: 0;
+}
+
+#bg ul,
+#bg ol {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+button {
+    border: none;
+}
+
+.split {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.split-3 {
+    -webkit-line-clamp: 3;
+}
